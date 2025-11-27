@@ -1,0 +1,22 @@
+.weather-card {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  border-radius: 22px;
+  background: rgba(255,255,255,0.22);
+  backdrop-filter: blur(18px);
+  color: black;
+  font-family: sans-serif;
+  animation: fadeIn .6s;
+}
+
+.weather-card h1 {
+  font-size: 54px;
+  margin: 0;
+}
+
+.right-details img {
+  width: 95px;
+}
