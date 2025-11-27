@@ -1,49 +1,99 @@
-📌 101512597_comp3123_labtest2 — Weather Application
+# 🌦 COMP3123 — Lab Test 2 — Weather App
+**Name:** Joel Chandra Paul  
+**Student ID:** 101512597  
 
-Created By: Joel Chandra Paul
-Student ID: 101512597
+---
 
-📄 Project Overview
+## 🔗 Live Application  
+https://101512597-comp3123-labtest2-pznj1sjwo.vercel.app  
 
-This is a weather application built for COMP3123 – Full Stack Development I (Lab Test 2).
-The app fetches real-time weather data using the OpenWeatherMap API, displays key information such as:
+## 🔗 GitHub Repository  
+https://github.com/JoelChandraPaul/101512597_comp3123_labtest2  
 
-✔ City & Country
-✔ Temperature in °C
-✔ Weather condition + description
-✔ Feels-like temperature
-✔ Humidity
-✔ Wind speed
-✔ Min & Max temperature
+---
 
-The UI is built using React, styled with a modern glass-card UI, and features automatic weather-based backgrounds that change depending on conditions like Clear, Clouds, Rain, Snow, Mist, Thunderstorm, etc.
+## 📌 Project Summary  
+This React Weather Application retrieves real-time weather data using WeatherAPI.com.  
+Users can search for any location and view:
 
-📦 Technologies Used
-Technology	Purpose
-React (Vite/CRA)	UI and component rendering
-JavaScript (ES6)	Logic + API handling
-OpenWeatherMap API	Live weather data
-CSS/Glassmorphism	UI Styling
-Environment Variables (.env)	Secure API key handling
-🔥 Features
-Feature	Status
-Real-time Weather API fetch	✅
-City Search Input	✅
-Dynamic changing background	✅
-Weather Icons	✅
-Glassmorphism themed UI	✅
-Supports ANY city worldwide	✅
-🛠 How to Run Locally
+- Temperature (°C)
+- Weather Condition + Icon
+- City + Country
+- Local Time
+- Feels Like Temperature
+- Humidity
+- Wind Speed
+- UV Index
 
-Ensure Node.js is installed → then run:
+Background dynamically updates based on weather.
 
+---
+
+## 💻 Technologies Used
+
+| Technology | Purpose |
+|----------|---------|
+| React.js | Front-end Application |
+| WeatherAPI.com | Weather Data API |
+| CSS + Glassmorphism UI | Styling & Layout |
+| GitHub | Version Control |
+| Vercel | Deployment Hosting |
+
+---
+
+## 🔥 Features Implemented
+
+| Feature | Status |
+|--------|--------|
+| API Fetch (WeatherAPI) | ✔ |
+| Search City Dynamically | ✔ |
+| Weather Icons & Data Display | ✔ |
+| Weather-Based Background Change | ✔ |
+| React Hooks (useState, useEffect) | ✔ |
+| Props Between Components | ✔ |
+| Fully Responsive UI | ✔ |
+| Deployed Live Online | ✔ |
+
+---
+
+## 🖼 Application Screenshots
+
+### 🔹 Default Screen (Toronto)
+![Default](assets/screenshots/default.png)
+
+### 🔹 Search — Tokyo
+![Tokyo](assets/screenshots/search_tokyo.png)
+
+### 🔹 Search — London
+![London](assets/screenshots/search_london.png)
+
+### 🔹 Background Theme Variation
+![Background](assets/screenshots/background_variation.png)
+
+### 🔹 Postman API Response (Success)
+![Postman](assets/screenshots/postman_output.png)
+
+### 🔹 GitHub Repo Structure
+![Repo](assets/screenshots/repo_structure.png)
+
+### 🔹 Live Deployment Screenshot
+![Live Site](assets/screenshots/live_site.png)
+
+---
+
+## 🛠 How to Run Locally
+
+```bash
+git clone https://github.com/JoelChandraPaul/101512597_comp3123_labtest2
+cd 101512597_comp3123_labtest2
 npm install
+
+Create .env:
+REACT_APP_API_KEY=YOUR_API_KEY
+
+Start Application:
 npm start
 
+🌍 API Source
 
-Create a .env file in project root with your API key:
-
-REACT_APP_API_KEY=YOUR_OPENWEATHER_KEY_HERE
-
-
-Restart server after saving .env.
+Weather Data: https://www.weatherapi.com/
