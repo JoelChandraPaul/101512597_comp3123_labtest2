@@ -81,19 +81,22 @@ Background dynamically updates based on weather.
 
 ---
 
+
+### 🌍 API Source
+
+Weather Data Provider → https://www.weatherapi.com/
+
 ## 🛠 How to Run Locally
 
 ```bash
 git clone https://github.com/JoelChandraPaul/101512597_comp3123_labtest2
 cd 101512597_comp3123_labtest2
 npm install
+Create .env in project root:
 
-Create .env:
 REACT_APP_API_KEY=YOUR_API_KEY
 
+
 Start Application:
+
 npm start
-
-🌍 API Source
-
-Weather Data: https://www.weatherapi.com/
